@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: demo1-prod
+  labels:
+    app : demo1
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: demo1-qa
+  labels:
+    app : demo1
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: demo1-dev
+  labels:
+    app : demo1
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: demo1-build
+  labels:
+    app : demo1
